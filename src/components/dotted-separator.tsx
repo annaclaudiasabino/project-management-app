@@ -22,7 +22,7 @@ export function DottedSeparator({
     <div
       className={cn(
         isHorizontal
-          ? 'flex w-full items-center'
+          ? 'w-full flex items-center'
           : 'h-full flex flex-col items-center',
         className
       )}
